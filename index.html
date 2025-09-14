@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JCharles Arts — Games & Good Trouble</title>
+  <meta name="description" content="A cozy hub for Charlie’s classroom games, experimental projects, and assorted shenanigans." />
+  <link rel="preload" href="/css/styles.css" as="style">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand">
+      <div class="logo">
+        <img src="/img/placeholder.svg" alt="JCharles Arts logo" width="40" height="40">
+      </div>
+      <div class="titles">
+        <h1>JCharles Arts</h1>
+        <p class="tagline">silly games • classroom experiments • pixel‑powered history</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/games/">Games</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#support" class="pill">Support</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome! 👋</h2>
+      <p>Here lives a rotating gallery of classroom‑born games, prototypes, and creative tangents. 
+      Nothing here is a product — it’s all shared in the spirit of learning and play.</p>
+      <div class="cta-row">
+        <a class="btn" href="/games/">Browse Games</a>
+        <a class="btn alt" href="#support">Support the Work</a>
+      </div>
+    </section>
+
+    <section id="featured" class="cards">
+      <article class="card">
+        <img src="/img/placeholder.svg" alt="" class="thumb">
+        <div class="card-body">
+          <h3>FIOLIF (original)</h3>
+          <p>The classic classroom “Fix It or Let It Fall” experiment in Roman politics.
+          Fast, chaotic, and full of riot tokens.</p>
+          <a class="btn small" href="/games/">Play / Learn More</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/img/placeholder.svg" alt="" class="thumb">
+        <div class="card-body">
+          <h3>Mesopotamian Trade Adventure</h3>
+          <p>River routes, caravan quests, and city‑state shenanigans. Work‑in‑progress builds live here.</p>
+          <a class="btn small" href="/games/">Try the WIP</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="/img/placeholder.svg" alt="" class="thumb">
+        <div class="card-body">
+          <h3>Caravan Courier</h3>
+          <p>A lightweight route‑dodger set in Akkad’s shadow. Avoid armies, deliver the goods.</p>
+          <a class="btn small" href="/games/">Open prototype</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Other Ventures</h2>
+      <ul class="linklist">
+        <li><a href="#" title="Add your external link">YouTube: Classroom shorts & devlogs</a></li>
+        <li><a href="#" title="Add your external link">GitHub: Open code & lesson assets</a></li>
+        <li><a href="#" title="Add your external link">Newsletter: Occasional updates</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>Hi, I’m Charlie — a teacher, tinkerer, and game‑ish maker. This site collects projects built for (and often with) my students. 
+      If something breaks, that’s because it’s probably brand‑new or being rewritten between diaper changes.</p>
+    </section>
+
+    <section id="support" class="support">
+      <h2>Support the Work</h2>
+      <p><strong>Donations only.</strong> No goods or services are offered in exchange. Contributions help cover hosting, art assets, and snacks that fuel late‑night bug fixing.</p>
+      <div class="donations">
+        <!-- Replace the href values with your real links -->
+        <a class="btn donate" href="https://paypal.me/YOURUSERNAME" rel="noopener">Donate via PayPal</a>
+        <a class="btn donate" href="https://buy.stripe.com/YOUR_PAYMENT_LINK" rel="noopener">Donate via Stripe</a>
+        <a class="btn donate" href="https://ko-fi.com/YOURUSERNAME" rel="noopener">Support on Ko‑fi</a>
+      </div>
+      <p class="fineprint">By donating, you acknowledge no goods or services are being provided. This is not a purchase.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> JCharles Arts • Crafted with love and vanilla HTML/CSS</p>
+    <p class="legal"><a href="/terms.html">Terms</a> • <a href="/privacy.html">Privacy</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
