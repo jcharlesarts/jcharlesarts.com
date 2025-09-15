@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Games • JCharles Arts</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand">
+      <div class="logo">
+        <img src="/img/placeholder.svg" alt="JCharles Arts logo" width="40" height="40">
+      </div>
+      <div class="titles">
+        <h1>Games</h1>
+        <p class="tagline">classroom creations & joyful prototypes</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/games/" class="active">Games</a>
+      <a href="/#projects">Projects</a>
+      <a href="/#support" class="pill">Support</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="cards">
+      <!-- Duplicate a card block per game; link to the actual game URL or a subpage -->
+      <article class="card">
+        <img src="/img/placeholder.svg" alt="" class="thumb">
+        <div class="card-body">
+          <h3>FIOLIF (Web)</h3>
+          <p>The original classroom chaos machine. Play it in browser.</p>
+          <div class="btnrow">
+            <a class="btn small" href="/fiolif/index.html">Launch</a>
+            <a class="btn small alt" href="/fiolif/README.html">About</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="/img/placeholder.svg" alt="" class="thumb">
+        <div class="card-body">
+          <h3>Mesopotamian Trade Adventure</h3>
+          <p>Early build with river routes and caravan tests.</p>
+          <div class="btnrow">
+            <a class="btn small" href="/mta/index.html">Launch</a>
+            <a class="btn small alt" href="/mta/notes.html">Dev Notes</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="/img/placeholder.svg" alt="" class="thumb">
+        <div class="card-body">
+          <h3>Caravan Courier</h3>
+          <p>Quick prototype — avoid armies, complete deliveries.</p>
+          <div class="btnrow">
+            <a class="btn small" href="/courier/index.html">Launch</a>
+            <a class="btn small alt" href="/courier/notes.html">Dev Notes</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> JCharles Arts</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
